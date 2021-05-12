@@ -1,5 +1,5 @@
 FROM python:3-buster
-LABEL org.opencontainers.image.source https://github.com/tedder/miner_exporter
+LABEL org.opencontainers.image.source https://github.com/helium-staking/miner_exporter.git
 ENV PYTHONUNBUFFERED=1
 EXPOSE 9825
 
